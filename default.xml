@@ -10,6 +10,8 @@
            fetch="git://git.osdn.jp/gitroot/android-x86/" />
   <remote  name="UberTC"
            fetch="https://bitbucket.org/UBERTC/" />
+  <remote  name="kechap"
+           fetch="git://github.com/kechap/" />
   <remote  name="udooboard-github"
            fetch="git://github.com/UDOOboard/" />
   <default revision="refs/tags/android-6.0.1_r74"
@@ -38,7 +40,7 @@
   <project path="device/fsl-codec" name="FreeSrk/codec" remote="github" revision="master" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-13.0" />
-  <project path="external/bossacjni" name="android_external_bossacjni" remote="udooboard-github" revision="master" />
+  <project path="external/bossacjni" name="android_external_bossacjni" remote="kechap" revision="master" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
   <project path="external/fsl_imx_omx" name="FreeSrk/omx" remote="github" revision="master" />
   <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
@@ -121,6 +123,7 @@
   <project name="platform/dalvik" path="dalvik" />
   <project name="platform/developers/build" path="developers/build" />
   <project name="platform/development" path="development" />
+  <project path="platform/external/libnfc-nci" name="external/libnfc-nci" />
   <project name="platform/external/aac" path="external/aac" />
   <project name="platform/external/android-clat" path="external/android-clat" />
   <project name="platform/external/android-mock" path="external/android-mock" />
@@ -356,6 +359,7 @@
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" />
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" />
