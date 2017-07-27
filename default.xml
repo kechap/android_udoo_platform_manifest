@@ -356,6 +356,7 @@
   <project name="platform/libnativehelper" path="libnativehelper" />
   <project name="platform/ndk" path="ndk" />
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" />
+  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer" />
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
