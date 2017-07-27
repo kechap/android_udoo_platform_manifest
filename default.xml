@@ -123,7 +123,6 @@
   <project name="platform/dalvik" path="dalvik" />
   <project name="platform/developers/build" path="developers/build" />
   <project name="platform/development" path="development" />
-  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" />
   <project name="platform/external/aac" path="external/aac" />
   <project name="platform/external/android-clat" path="external/android-clat" />
   <project name="platform/external/android-mock" path="external/android-mock" />
@@ -359,7 +358,6 @@
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" />
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" />
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" />
